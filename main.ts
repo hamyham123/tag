@@ -53,4 +53,6 @@ forever(function () {
         game.showLongText("red wins", DialogLayout.Center)
         game.reset()
     }
+    mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One)).setStayInScreen(true)
+    mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).setStayInScreen(true)
 })
